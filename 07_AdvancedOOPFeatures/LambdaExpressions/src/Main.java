@@ -2,6 +2,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.Year;
 import java.util.*;
 import java.util.stream.Stream;
 
@@ -11,6 +12,11 @@ public class Main {
 
     public static void main(String[] args) {
         ArrayList<Employee> staff = loadStaffFromFile();
+
+        staff.stream().filter(employee -> employee.getWorkStart().getYear() == 117)
+                .max(Comparator.comparing(Employee::getSalary))
+                .ifPresent(System.out::println);
+        System.out.println();
 
         Collections.sort(staff, (o1, o2) -> {
             int i = o1.getSalary().compareTo(o2.getSalary());
@@ -24,6 +30,14 @@ public class Main {
         for (Employee employee : staff) {
             System.out.println(employee);
         }
+    }
+
+    public void getHomeWork() {
+        ArrayList<Employee> staff = loadStaffFromFile();
+
+        //staff.stream().map(Employee -> Employee.getWorkStart().getYear()).filter(y -> y == 117).
+        staff.stream().max(Comparator.comparing(Employee::getSalary)).ifPresent(System.out::println);
+
     }
 
     private static ArrayList<Employee> loadStaffFromFile() {
