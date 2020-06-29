@@ -16,10 +16,11 @@ public class Main {
         for (int i = 0; i < Airport.getInstance().getTerminals().size(); i++) {
             System.out.println("Terminal - " + i);
 
-            Airport.getInstance().getTerminals().get(i).getFlights().stream()
-                    .filter(flight -> flight.getType().equals(DEPARTURE))
-                    .filter(flight -> flight.getDate().before(departureTime))
-                    .filter(flight -> flight.getDate().after(beforeTwoHoursTime))
+            Airport.getInstance().getTerminals().stream()
+                    .flatMap(t -> t.getFlights().stream())
+                    .filter(f -> f.getType().equals(DEPARTURE))
+                    .filter(f -> f.getDate().before(departureTime))
+                    .filter(f -> f.getDate().after(beforeTwoHoursTime))
                     .forEach(f -> System.out.println(f.getDate() + " + " +  f.getAircraft()));
 
         }

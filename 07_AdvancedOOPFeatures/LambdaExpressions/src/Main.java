@@ -13,6 +13,7 @@ public class Main {
     public static void main(String[] args) {
         ArrayList<Employee> staff = loadStaffFromFile();
 
+        
         staff.stream().filter(employee -> employee.getWorkStart().getYear() == 117)
                 .max(Comparator.comparing(Employee::getSalary))
                 .ifPresent(System.out::println);
