@@ -23,8 +23,7 @@ public class Main {
             if (i != 0) {
                 return i;
             } else {
-                int y = o1.getName().compareTo(o2.getName());
-                return y;
+                return o1.getName().compareTo(o2.getName());
             }
         });
         for (Employee employee : staff) {
@@ -35,7 +34,6 @@ public class Main {
     public void getHomeWork() {
         ArrayList<Employee> staff = loadStaffFromFile();
 
-        //staff.stream().map(Employee -> Employee.getWorkStart().getYear()).filter(y -> y == 117).
         staff.stream().max(Comparator.comparing(Employee::getSalary)).ifPresent(System.out::println);
 
     }

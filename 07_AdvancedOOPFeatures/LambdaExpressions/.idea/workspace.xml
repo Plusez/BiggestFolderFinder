@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="baabd658-2e59-4748-887f-1bdd396c992b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Airport/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="baabd658-2e59-4748-887f-1bdd396c992b" name="Default Changelist" comment="Module 7.8. LambdaExpressions and Airport">
+      <change beforePath="$PROJECT_DIR$/../Airport/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Airport/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -33,7 +33,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558674161968" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../SkillBox/Cat" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -60,32 +60,47 @@
       <option name="presentableId" value="Default" />
       <updated>1558596426627</updated>
     </task>
+    <task id="LOCAL-00001" summary="Module 7.8.">
+      <created>1593020274700</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593020274700</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Module 7.8." />
+    <MESSAGE value="Module 7.8. LambdaExpressions and Airport" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module 7.8. LambdaExpressions and Airport" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1592501879683">
+    <state x="451" y="86" key="CommitChangelistDialog2" timestamp="1593423196007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592501879683" />
-    <state width="1876" height="348" key="GridCell.Tab.0.bottom" timestamp="1593020180598">
+    <state x="451" y="86" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593423196007" />
+    <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1593022954812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593020180598" />
-    <state width="1876" height="348" key="GridCell.Tab.0.center" timestamp="1593020180598">
+    <state x="740" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593022954812" />
+    <state width="1876" height="348" key="GridCell.Tab.0.bottom" timestamp="1593423196104">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593020180598" />
-    <state width="1876" height="348" key="GridCell.Tab.0.left" timestamp="1593020180598">
+    <state width="1876" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593423196104" />
+    <state width="1876" height="348" key="GridCell.Tab.0.center" timestamp="1593423196104">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593020180598" />
-    <state width="1876" height="348" key="GridCell.Tab.0.right" timestamp="1593020180598">
+    <state width="1876" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593423196104" />
+    <state width="1876" height="348" key="GridCell.Tab.0.left" timestamp="1593423196104">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593020180598" />
+    <state width="1876" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593423196104" />
+    <state width="1876" height="348" key="GridCell.Tab.0.right" timestamp="1593423196104">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593423196104" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1592966606944">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
