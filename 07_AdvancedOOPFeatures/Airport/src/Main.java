@@ -1,4 +1,6 @@
 import com.skillbox.airport.Airport;
+
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import static com.skillbox.airport.Flight.Type.DEPARTURE;

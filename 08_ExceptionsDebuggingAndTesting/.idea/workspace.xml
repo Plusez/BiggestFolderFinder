@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df634a80-1e4b-45d3-b0fe-3a6a7855d68f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/08_ExceptionsDebuggingAndTesting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleCustomerList/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleCustomerList/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleCustomerList/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleCustomerList/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleCustomerList/ConsoleCustomerList.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleCustomerList/src/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleCustomerList/src/CustomerStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleCustomerList/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPBMetro/SPBMetro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPBMetro/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPBMetro/spb-metro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPBMetro/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPBMetro/src/main/java/RouteCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPBMetro/src/main/java/StationIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPBMetro/src/main/java/core/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPBMetro/src/main/java/core/Station.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPBMetro/src/main/resources/map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPBMetro/target/classes/map.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07_AdvancedOOPFeatures/Airport/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07_AdvancedOOPFeatures/Airport/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1e35cELqYOzZsxzpA8MBeJZXuJD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ConsoleCustomerList" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="spb-metro" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df634a80-1e4b-45d3-b0fe-3a6a7855d68f" name="Default Changelist" comment="" />
+      <created>1593537512431</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593537512431</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="832" y="412" key="FileChooserDialogImpl" timestamp="1594012291283">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="832" y="412" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594012291283" />
+    <state width="1876" height="277" key="GridCell.Tab.0.bottom" timestamp="1594045262201">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594045262201" />
+    <state width="1876" height="277" key="GridCell.Tab.0.center" timestamp="1594045262201">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594045262201" />
+    <state width="1876" height="277" key="GridCell.Tab.0.left" timestamp="1594045262201">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594045262201" />
+    <state width="1876" height="277" key="GridCell.Tab.0.right" timestamp="1594045262201">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594045262201" />
+    <state x="468" y="150" key="SettingsEditor" timestamp="1594006462353">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="468" y="150" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594006462353" />
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1593842885168">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593842885168" />
+  </component>
+</project>
