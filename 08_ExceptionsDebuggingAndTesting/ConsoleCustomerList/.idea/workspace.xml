@@ -1,37 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="86049f15-b71b-4c5c-ba62-26d02c1d5a8c" name="Default Changelist" comment="08_ExceptionsDebuggingAndTesting">
-      <change afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/08_ExceptionsDebuggingAndTesting.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsoleCustomerList.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CustomerStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SPBMetro/SPBMetro.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SPBMetro/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SPBMetro/spb-metro.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SPBMetro/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SPBMetro/src/main/java/RouteCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SPBMetro/src/main/java/StationIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SPBMetro/src/main/java/core/Line.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SPBMetro/src/main/java/core/Station.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SPBMetro/src/main/resources/map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SPBMetro/target/classes/map.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../07_AdvancedOOPFeatures/Airport/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../07_AdvancedOOPFeatures/Airport/src/Main.java" afterDir="false" />
+    <list default="true" id="86049f15-b71b-4c5c-ba62-26d02c1d5a8c" name="Default Changelist" comment="Merge branch 'master' of https://gitlab.skillbox.ru/sivkov_maksim/java_basics&#10;&#10;# Conflicts:&#10;#&#9;08_ExceptionsDebuggingAndTesting/ConsoleCustomerList/src/CustomerStorage.java&#10;#&#9;08_ExceptionsDebuggingAndTesting/ConsoleCustomerList/src/Main.java&#10;#&#9;08_ExceptionsDebuggingAndTesting/SPBMetro/src/main/java/Main.java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SPBMetro/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SPBMetro/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../SkillBox/module5/4/Phonebook" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -82,17 +72,36 @@
       <option name="presentableId" value="Default" />
       <updated>1594012293890</updated>
     </task>
+    <task id="LOCAL-00001" summary="08_ExceptionsDebuggingAndTesting">
+      <created>1594045402724</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594045402724</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="08_ExceptionsDebuggingAndTesting" />
     <option name="LAST_COMMIT_MESSAGE" value="08_ExceptionsDebuggingAndTesting" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="417" y="86" key="CommitChangelistDialog2" timestamp="1594045163502">
+    <state x="417" y="34" width="1483" height="1006" key="CommitChangelistDialog2" timestamp="1594049377147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="417" y="86" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594045163502" />
+    <state x="417" y="34" width="1483" height="1006" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594049377147" />
     <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1594034531178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
