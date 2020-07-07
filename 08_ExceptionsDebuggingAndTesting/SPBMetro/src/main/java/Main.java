@@ -12,7 +12,11 @@ import java.util.Scanner;
 
 public class Main
 {
+<<<<<<< HEAD
     private static String dataFile = "C:/Users/Максим/Desktop/skillbox_java/java_basics/08_ExceptionsDebuggingAndTesting/SPBMetro/src/main/resources/map.json";
+=======
+    private static String dataFile = "src/main/resources/map.json";
+>>>>>>> 3c055f5544f272dd779bb2faf665662408304751
     private static Scanner scanner;
 
     private static StationIndex stationIndex;

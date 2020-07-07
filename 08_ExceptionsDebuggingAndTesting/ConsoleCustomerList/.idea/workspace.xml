@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86049f15-b71b-4c5c-ba62-26d02c1d5a8c" name="Default Changelist" comment="Merge branch 'master' of https://gitlab.skillbox.ru/sivkov_maksim/java_basics&#10;&#10;# Conflicts:&#10;#&#9;08_ExceptionsDebuggingAndTesting/ConsoleCustomerList/src/CustomerStorage.java&#10;#&#9;08_ExceptionsDebuggingAndTesting/ConsoleCustomerList/src/Main.java&#10;#&#9;08_ExceptionsDebuggingAndTesting/SPBMetro/src/main/java/Main.java">
+    <list default="true" id="86049f15-b71b-4c5c-ba62-26d02c1d5a8c" name="Default Changelist" comment="commit 08_ExceptionsDebuggingAndTesting/ConsoleCustomerList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomerStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomerStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SPBMetro/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SPBMetro/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +32,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1eIbwcI6wzk8td5dB3Ihi1nScPA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -79,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594045402724</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Merge branch 'master' of https://gitlab.skillbox.ru/sivkov_maksim/java_basics&#10;&#10;# Conflicts:&#10;#&#9;08_ExceptionsDebuggingAndTesting/ConsoleCustomerList/src/CustomerStorage.java&#10;#&#9;08_ExceptionsDebuggingAndTesting/ConsoleCustomerList/src/Main.java&#10;#&#9;08_ExceptionsDebuggingAndTesting/SPBMetro/src/main/java/Main.java">
+      <created>1594049642089</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594049642089</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,35 +102,42 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="08_ExceptionsDebuggingAndTesting" />
-    <option name="LAST_COMMIT_MESSAGE" value="08_ExceptionsDebuggingAndTesting" />
+    <MESSAGE value="Merge branch 'master' of https://gitlab.skillbox.ru/sivkov_maksim/java_basics&#10;&#10;# Conflicts:&#10;#&#9;08_ExceptionsDebuggingAndTesting/ConsoleCustomerList/src/CustomerStorage.java&#10;#&#9;08_ExceptionsDebuggingAndTesting/ConsoleCustomerList/src/Main.java&#10;#&#9;08_ExceptionsDebuggingAndTesting/SPBMetro/src/main/java/Main.java" />
+    <MESSAGE value="commit 08_ExceptionsDebuggingAndTesting/ConsoleCustomerList" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 08_ExceptionsDebuggingAndTesting/ConsoleCustomerList" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="417" y="34" width="1483" height="1006" key="CommitChangelistDialog2" timestamp="1594049377147">
+    <state x="417" y="34" width="1483" height="1006" key="CommitChangelistDialog2" timestamp="1594102388696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="417" y="34" width="1483" height="1006" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594049377147" />
+    <state x="417" y="34" width="1483" height="1006" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594102388696" />
     <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1594034531178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594034531178" />
-    <state width="1876" height="198" key="GridCell.Tab.0.bottom" timestamp="1594045231348">
+    <state width="1876" height="198" key="GridCell.Tab.0.bottom" timestamp="1594102388810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="198" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594045231348" />
-    <state width="1876" height="198" key="GridCell.Tab.0.center" timestamp="1594045231348">
+    <state width="1876" height="198" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594102388810" />
+    <state width="1876" height="198" key="GridCell.Tab.0.center" timestamp="1594102388810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="198" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594045231348" />
-    <state width="1876" height="198" key="GridCell.Tab.0.left" timestamp="1594045231347">
+    <state width="1876" height="198" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594102388810" />
+    <state width="1876" height="198" key="GridCell.Tab.0.left" timestamp="1594102388810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="198" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594045231347" />
-    <state width="1876" height="198" key="GridCell.Tab.0.right" timestamp="1594045231348">
+    <state width="1876" height="198" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594102388810" />
+    <state width="1876" height="198" key="GridCell.Tab.0.right" timestamp="1594102388810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="198" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594045231348" />
+    <state width="1876" height="198" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594102388810" />
+    <state x="769" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594102671252">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594102671252" />
   </component>
 </project>
