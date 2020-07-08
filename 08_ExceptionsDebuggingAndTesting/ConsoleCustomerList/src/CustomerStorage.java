@@ -7,7 +7,7 @@ public class CustomerStorage {
         storage = new HashMap<>();
     }
 
-    public void addCustomer(String data) throws IllegalArgumentException {
+    public void addCustomer(String data) throws IllegalArgumentException, WrongFormatEmailExeption, WrongFormatPhoneExeption {
 
         if (data != null) {
             String[] components = data.split("\\s+");
@@ -20,9 +20,9 @@ public class CustomerStorage {
                 } else if (!components[1].matches("[A-ZА-ЯЁ][a-zа-яё]*")) {
                     throw new IllegalArgumentException("Неверный формат имени 2");
                 } else if (!components[3].matches("(\\+)\\d{11}$")) {
-                    throw new IllegalArgumentException("Неверный формат телефона");
+                    throw new WrongFormatPhoneExeption ("Неверный формат телефона");
                 } else if (!components[2].matches("[a-z0-9._-]+@[a-z0-9-]+\\.[a-z]{2,4}")) {
-                    throw new IllegalArgumentException("Неверный формат почты");
+                    throw new WrongFormatEmailExeption ("Неверный формат почты");
                 } else {
                     String name = components[0] + " " + components[1];
                     storage.put(name, new Customer(name, components[3], components[2]));
