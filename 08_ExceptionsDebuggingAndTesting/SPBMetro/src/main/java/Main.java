@@ -12,11 +12,8 @@ import java.util.Scanner;
 
 public class Main
 {
-<<<<<<< HEAD
     private static String dataFile = "C:/Users/Максим/Desktop/skillbox_java/java_basics/08_ExceptionsDebuggingAndTesting/SPBMetro/src/main/resources/map.json";
-=======
-    private static String dataFile = "src/main/resources/map.json";
->>>>>>> 3c055f5544f272dd779bb2faf665662408304751
+//    private static String dataFile = "src/main/resources/map.json";
     private static Scanner scanner;
 
     private static StationIndex stationIndex;
@@ -91,12 +88,15 @@ public class Main
 
             JSONArray linesArray = (JSONArray) jsonData.get("lines");
             parseLines(linesArray);
+            System.out.println("linesArray - " + linesArray);
 
             JSONObject stationsObject = (JSONObject) jsonData.get("stations");
             parseStations(stationsObject);
+            System.out.println("stationsObject - " + stationsObject);
 
             JSONArray connectionsArray = (JSONArray) jsonData.get("connections");
             parseConnections(connectionsArray);
+            System.out.println("connectionsArray - " + connectionsArray);
         }
         catch(Exception ex) {
             ex.printStackTrace();

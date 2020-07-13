@@ -50,8 +50,6 @@ public class RouteCalculator
         return duration;
     }
 
-    //=========================================================================
-
     private List<Station> getRouteOnTheLine(Station from, Station to)
     {
         if(!from.getLine().equals(to.getLine())) {
