@@ -38,11 +38,6 @@ public class StationIndex
             TreeSet<Station> connectedStations = connections.get(station);
             connectedStations.addAll(stations.stream()
                 .filter(s -> !s.equals(station)).collect(Collectors.toList()));
-
-            System.out.println(Collectors.toList().toString());
-        System.out.println("1station - " + station);
-        System.out.println("connections - " + connections.get(station) + connections);
-        System.out.println("connectedStations - " + connectedStations);
         }
     }
 

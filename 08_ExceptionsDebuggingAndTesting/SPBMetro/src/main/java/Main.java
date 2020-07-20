@@ -7,10 +7,11 @@ import org.json.simple.parser.JSONParser;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main
+public class Main extends Exception
 {
     private static String dataFile = "C:/Users/Максим/Desktop/skillbox_java/java_basics/08_ExceptionsDebuggingAndTesting/SPBMetro/src/main/resources/map.json";
 //    private static String dataFile = "src/main/resources/map.json";
