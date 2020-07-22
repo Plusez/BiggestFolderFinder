@@ -58,7 +58,7 @@ public class RouteCalculatorTest {
     }
 
 
-    public List<Station> getExpectedRoute() {
+    public List<Station> getExpectedRoute(String routeString) {
         List<Station> expectedRoute = new ArrayList<>();
         for (String st : routeString.split(" ")) {
             stationIndex.getStation(st);
@@ -72,7 +72,7 @@ public class RouteCalculatorTest {
         List<Station> actualRouteOnTheLine;
         routeString = "st1 st2 st3";
         actualRouteOnTheLine = routeCalculator.getShortestRoute(stationIndex.getStation("st1"), stationIndex.getStation("st3"));
-        Assert.assertEquals(getExpectedRoute(), actualRouteOnTheLine);
+        Assert.assertEquals(getExpectedRoute(routeString), actualRouteOnTheLine);
     }
 
     @Test
@@ -80,7 +80,7 @@ public class RouteCalculatorTest {
         List<Station> actualRouteForOneConnection;
         routeString = "st1 st2 st4 st5 st6";
         actualRouteForOneConnection = routeCalculator.getShortestRoute(stationIndex.getStation("st1"), stationIndex.getStation("st6"));
-        Assert.assertEquals(getExpectedRoute(), actualRouteForOneConnection);
+        Assert.assertEquals(getExpectedRoute(routeString), actualRouteForOneConnection);
     }
 
     @Test
@@ -88,13 +88,13 @@ public class RouteCalculatorTest {
         List<Station> actualRouteForTwoConnection;
         routeString = "st1 st2 st4 st5 st8 st9";
         actualRouteForTwoConnection = routeCalculator.getShortestRoute(stationIndex.getStation("st1"), stationIndex.getStation("st9"));
-        Assert.assertEquals(getExpectedRoute(), actualRouteForTwoConnection);
+        Assert.assertEquals(getExpectedRoute(routeString), actualRouteForTwoConnection);
     }
 
     @Test
     public void testCalculateDuration() {
         routeString = "st1 st2 st3";
-        double actual = RouteCalculator.calculateDuration(getExpectedRoute());
+        double actual = RouteCalculator.calculateDuration(getExpectedRoute(routeString));
         double expected = 5.0;
         Assert.assertEquals(expected, actual, 0.1);
     }
@@ -102,7 +102,7 @@ public class RouteCalculatorTest {
     @Test
     public void testCalculateDurationForOneConnection() {
         routeString = "st1 st2 st4 st5 st6";
-        double actual = routeCalculator.calculateDuration(getExpectedRoute());
+        double actual = routeCalculator.calculateDuration(getExpectedRoute(routeString));
         double expected = 11.0;
         Assert.assertEquals(expected, actual, 0.1);
     }
@@ -110,7 +110,7 @@ public class RouteCalculatorTest {
     @Test
     public void testCalculateDurationForTwoConnection() {
         routeString = "st1 st2 st4 st5 st8 st9";
-        double actual = routeCalculator.calculateDuration(getExpectedRoute());
+        double actual = routeCalculator.calculateDuration(getExpectedRoute(routeString));
         double expected = 14.5;
         Assert.assertEquals(expected, actual, 0.1);
     }
