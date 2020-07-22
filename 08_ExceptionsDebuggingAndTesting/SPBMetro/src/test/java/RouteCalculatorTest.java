@@ -1,24 +1,20 @@
 import core.Line;
 import core.Station;
-import junit.framework.TestCase;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
 
 import java.util.*;
 
-public class RouteCalculatorTest extends TestCase {
+
+public class RouteCalculatorTest {
 
     StationIndex stationIndex = new StationIndex();
-    List<Station> expectedRouteOnTheLine = new ArrayList<>();
-    List<Station> expectedRouteForOneConnection = new ArrayList<>();
-    List<Station> expectedRouteForTwoConnection = new ArrayList<>();
-
-
-    List<Station> actualRouteOnTheLine = new ArrayList<>();
-    List<Station> actualRouteForOneConnection = new ArrayList<>();
-    List<Station> actualRouteForTwoConnection = new ArrayList<>();
+    String routeString;
     RouteCalculator routeCalculator = new RouteCalculator(stationIndex);
 
-    @Override
-    public void setUp() throws Exception {
+    @Before
+    public void setUp() {
 
         Line line1 = new Line(1, "Первая");
         stationIndex.addLine(line1);
@@ -59,60 +55,63 @@ public class RouteCalculatorTest extends TestCase {
         stationIndex.addConnection(connectBetweenLin1AndLine2);
         List<Station> connectBetweenLin2AndLine3 = Arrays.asList(st5, st8);
         stationIndex.addConnection(connectBetweenLin2AndLine3);
-
-        expectedRouteOnTheLine.add(st1);
-        expectedRouteOnTheLine.add(st2);
-        expectedRouteOnTheLine.add(st3);
-
-        expectedRouteForOneConnection.add(st1);
-        expectedRouteForOneConnection.add(st2);
-        expectedRouteForOneConnection.add(st4);
-        expectedRouteForOneConnection.add(st5);
-        expectedRouteForOneConnection.add(st6);
-
-        expectedRouteForTwoConnection.add(st1);
-        expectedRouteForTwoConnection.add(st2);
-        expectedRouteForTwoConnection.add(st4);
-        expectedRouteForTwoConnection.add(st5);
-        expectedRouteForTwoConnection.add(st8);
-        expectedRouteForTwoConnection.add(st9);
-
-//        Station from = st1;
-//        Station to = st3;
-
     }
 
+
+    public List<Station> getExpectedRoute() {
+        List<Station> expectedRoute = new ArrayList<>();
+        for (String st : routeString.split(" ")) {
+            stationIndex.getStation(st);
+            expectedRoute.add(stationIndex.getStation(st));
+        }
+        return expectedRoute;
+    }
+
+    @Test
     public void testGetShortestRoute() {
-        actualRouteOnTheLine = routeCalculator.getShortestRoute (stationIndex.getStation("st1"), stationIndex.getStation("st3"));
-        assertEquals(expectedRouteOnTheLine, actualRouteOnTheLine);
+        List<Station> actualRouteOnTheLine;
+        routeString = "st1 st2 st3";
+        actualRouteOnTheLine = routeCalculator.getShortestRoute(stationIndex.getStation("st1"), stationIndex.getStation("st3"));
+        Assert.assertEquals(getExpectedRoute(), actualRouteOnTheLine);
     }
-    public void testGetShortestRouteForOneConnection(){
+
+    @Test
+    public void testGetShortestRouteForOneConnection() {
+        List<Station> actualRouteForOneConnection;
+        routeString = "st1 st2 st4 st5 st6";
         actualRouteForOneConnection = routeCalculator.getShortestRoute(stationIndex.getStation("st1"), stationIndex.getStation("st6"));
-        assertEquals(expectedRouteForOneConnection, actualRouteForOneConnection);
+        Assert.assertEquals(getExpectedRoute(), actualRouteForOneConnection);
     }
-    public void testGetShortestRouteForTwoConnection(){
+
+    @Test
+    public void testGetShortestRouteForTwoConnection() {
+        List<Station> actualRouteForTwoConnection;
+        routeString = "st1 st2 st4 st5 st8 st9";
         actualRouteForTwoConnection = routeCalculator.getShortestRoute(stationIndex.getStation("st1"), stationIndex.getStation("st9"));
-        assertEquals(expectedRouteForTwoConnection, actualRouteForTwoConnection);
+        Assert.assertEquals(getExpectedRoute(), actualRouteForTwoConnection);
     }
-    public void testCalculateDuration(){
-        double actual = routeCalculator.calculateDuration(expectedRouteOnTheLine);
+
+    @Test
+    public void testCalculateDuration() {
+        routeString = "st1 st2 st3";
+        double actual = RouteCalculator.calculateDuration(getExpectedRoute());
         double expected = 5.0;
-        assertEquals(expected, actual);
+        Assert.assertEquals(expected, actual, 0.1);
     }
-    public void testCalculateDurationForOneConnection(){
-        double actual = routeCalculator.calculateDuration(expectedRouteForOneConnection);
+
+    @Test
+    public void testCalculateDurationForOneConnection() {
+        routeString = "st1 st2 st4 st5 st6";
+        double actual = routeCalculator.calculateDuration(getExpectedRoute());
         double expected = 11.0;
-        assertEquals(expected, actual);
+        Assert.assertEquals(expected, actual, 0.1);
     }
-    public void testCalculateDurationForTwoConnection(){
-        double actual = routeCalculator.calculateDuration(expectedRouteForTwoConnection);
+
+    @Test
+    public void testCalculateDurationForTwoConnection() {
+        routeString = "st1 st2 st4 st5 st8 st9";
+        double actual = routeCalculator.calculateDuration(getExpectedRoute());
         double expected = 14.5;
-        assertEquals(expected, actual);
-    }
-
-
-    @Override
-    protected void tearDown() throws Exception {
-        super.tearDown();
+        Assert.assertEquals(expected, actual, 0.1);
     }
 }
